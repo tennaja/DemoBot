@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.13",
     "@mui/x-date-pickers": "^5.0.8",
     "@mui/x-date-pickers-pro": "^5.0.8",
     "@syncfusion/ej2-react-calendars": "^20.3.56",

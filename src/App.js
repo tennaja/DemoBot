@@ -10,13 +10,14 @@ import Example from './components/Date';
 import { Carousel } from 'bootstrap';
 import AdditionalContentExample from './components/Alert';
 import Tires from './components/Title';
+import ButtonAppBar from './components/Navbar';
 
 
 
 function App() {
   return (
       <>
-      <Navbardemo/>
+      <ButtonAppBar/>
       <br/>
       <Tires/>
       <AdditionalContentExample/>
