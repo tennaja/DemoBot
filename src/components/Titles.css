@@ -1,3 +1,6 @@
 p{
     text-align: end;
 }
+.card.custom-class{
+    background-color: #FFFACD;
+}

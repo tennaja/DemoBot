@@ -31,8 +31,8 @@ class MyApp extends Component {
     return (
       <Container>
         <div className="d-flex">
-          <div className="p-2 flex-grow-1"><Button variant="success">Export File Exel</Button>{" "}</div>
-          <div className="p-2 ">วันที่</div>
+          
+          <div className="p-2 ">เลือกวันที่</div>
           <div className="p-2">
           <form onSubmit={this.onFormSubmit}><i BsEyeFill></i>
           <DatePicker
@@ -44,7 +44,7 @@ class MyApp extends Component {
         </form>{" "}
           </div>
           <div className="p-2">
-            <Button variant="danger">chosse</Button>{" "}
+            <Button variant="danger">choose</Button>{" "}
           </div>
         </div>
 

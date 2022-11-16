@@ -8,20 +8,20 @@ import './Titles.css';
 export default function Tires() {
   return (
     <Container>
-    <div style={{ display: 'block', height: 230 }}>
+    <div style={{ display: 'block', height: 170 }}>
     <div classaName="d-flex align-items-end flex-column mb-3" >
     <div classaName="p-2"><p>( ข้อมูลย้อนหลังตั้งแต่ 04 มกราคม 2543 เป็นต้นไป )</p></div>
       </div>
       
       <Row>
         <Col>
-        <Card bg="secondary" style={{ height: 150}}>
+        <Card className='custom-class' style={{ height: 110}}>
       
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <h3 style={{color : "white"}}>
+          <h5 style={{color : "black"}}>
           อัตราแลกเปลี่ยนเงินตราต่างประเทศ ประจำวันที่ 11 พฤศจิกายน 2565
-          </h3>
+          </h5>
           
         </blockquote>
       </Card.Body>
@@ -29,16 +29,16 @@ export default function Tires() {
       </Col>
        
         <Col >
-        <Card bg="light" style={{ height:  150 }}>
+        <Card bg="light" style={{ height:  110 }}>
      
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <h3 style={{ color : "black"}}>
+          <h5 style={{ color : "black"}}>
           อัตราแลกเปลี่ยนถัวเฉลี่ยถ่วงน้ำหนักระหว่างธนาคาร เท่ากับ
 
 
-          </h3>
-          <h3 style={{ color : "green"}}>36.004 บาท ต่อ 1 ดอลลาร์ สรอ.</h3>
+          </h5>
+          <h5 style={{ color : "green"}}>36.004 บาท ต่อ 1 ดอลลาร์ สรอ.</h5>
         </blockquote>
       </Card.Body>
     </Card>
